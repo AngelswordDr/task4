@@ -1,3 +1,10 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 20px;
+}
+
 #trafficLight {
   display: flex;
   flex-direction: column;

@@ -3,16 +3,14 @@ let inputText = document.querySelector('input');
 
 inputText.addEventListener('keydown', (event) => {
   if (event.keyCode === 13) {
+    console.log(inputText.value);
     duplicatedText.textContent = inputText.value;
-    console.log(duplicatedText);
   }
-  console.log(event);
 })
 
 document.querySelector('button').addEventListener('mousedown', (event) => {
   event.preventDefault();
   if (event.which === 1) {
-    console.log(inputText.value);
     inputText.value = '';
   }
 })
